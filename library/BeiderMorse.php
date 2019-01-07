@@ -318,7 +318,7 @@ class BeiderMorse extends Core
             $list  = ['da', 'dal', 'de', 'del', 'dela', 'de la', 'della', 'des', 'di', 'do', 'dos', 'du', 'van', 'von'];
             $clist = count($list);
 
-            for( $j = 0; $j < count($clist); $j++ ) {
+            for( $j = 0; $j < $clist; $j++ ) {
 
                 $prefix       = "$list[$j] ";
                 $prefixLength = strlen($prefix);
